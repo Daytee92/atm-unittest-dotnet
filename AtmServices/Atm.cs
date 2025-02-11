@@ -16,7 +16,7 @@ public class Atm
         return false;
     }
 
-    public bool withdepositdraw(int amount){
+    public bool deposit(int amount){
         if (amount<0){
             return false;
         }
